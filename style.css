@@ -35,3 +35,36 @@ body{
     margin-top: -30px;
 }
 
+.artigo{
+    display: flex;
+    flex-flow: column wrap;
+    padding: 2px 0px 0px 2px;
+    border: solid #000000;
+    margin-right: 985px;
+}
+
+.descricao{
+    margin-top: -10px;
+}
+
+#grafico{
+    width: 340px;
+    height: 220px;
+}
+
+.link-artigos{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0px 2px ;
+}
+
+.links{
+    text-decoration: none;
+}
+
+#modelo-ia{
+    width: 340px;
+    height: 220px;
+}
+
