@@ -59,11 +59,18 @@ body{
     height: 220px;
 }
 
+.titulo-card{
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    padding-left: 10px;
+}
+
 .link-artigos{
     display: flex;
     justify-content: space-between;
+    margin-top: auto;
     align-items: center;
-    margin: 0px 2px ;
     padding: 0px 10px;
 }
 
@@ -86,8 +93,6 @@ body{
     border-radius: 5px;
 
     margin-top: 15px;
-    margin-left: auto;
-
     background-color: #dbdbdb;
 }
 
