@@ -1,0 +1,116 @@
+body{
+    background-color: #fefefe;
+    margin: 0px 0px 0px 8px;
+}
+
+#cabeçalho{
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 2px solid #000000;
+    position: sticky;
+}
+
+#logo{
+    width: 50px;
+    height: 45px;
+}
+
+#titulo-principal{
+    font-size: 50px;
+}
+
+.link-principais{
+    font-size: 20px;
+}
+
+.titulo-bar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+
+    margin: -5px 15px -5px 15px;
+}
+
+.subtitulo-bar{
+    display: flex;
+    align-items: center;
+    margin-left: 15px;
+    margin-top: -30px;
+}
+
+main{
+    display: flex;
+}
+
+main section{
+    flex: 3;
+}
+
+#content{
+    display: flex;
+    flex-direction: column;
+}
+
+#content article{
+    margin-left: 20px;
+}
+
+#title-article{
+    margin-top: -15px;
+}
+
+article{
+    margin: 0px 200px 50px 50px;
+    text-align: justify;
+}
+
+main aside{
+    flex: 1;
+
+    display: flex;
+    flex-direction: column;
+    align-content: flex-end;
+    width: 20%;
+
+    padding: 0px 15px 0px 15px;
+    border-radius: 5px;
+
+    margin-top: 15px;
+    margin-bottom: 40px;
+    background-color: #dbdbdb;
+}
+
+.descricao{
+    text-align: justify;
+}
+
+#uppertext{
+    color: #1310d6e0;
+}
+
+#foto-de-usuario{
+    float: left;    
+    width: 60px;            
+    height: 60px;           
+    border-radius: 50%;
+
+    margin-right: 15px;
+}
+
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #dbdbdb;
+    margin: -8px;
+}
+
+.imagem-logos{
+    padding-top: 13px;
+    padding-bottom: -5px;
+    padding-right: 5px;
+    padding-left: 5px;
+    width: 50px;
+    height: 50px;
+}
